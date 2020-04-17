@@ -36,7 +36,7 @@ For the calibration process, a closed insulated box was used, where the sensor's
 
 ![Measures Comparison](https://imagehost.imageupload.net/2020/04/17/mass_volt.jpg)
 
-Finally, using Cooks distance to remove the outliers and fitting the results in a first degree polynomial equation, we end up with the following equation:
+Finally, using Cook's distance to remove the outliers and fitting the results in a first degree polynomial equation, we end up with the following equation:
 
-$$Dust Density = (0.986 * Voltage - 0.582) * 1000 [um/m^3]$$
+Dust Density = (0.986 * Voltage - 0.582) * 1000 [um/m3]
 
