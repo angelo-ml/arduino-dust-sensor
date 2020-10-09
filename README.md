@@ -4,7 +4,7 @@ Arduino code and board connections for Sharp GP2Y dust sensor.
 ## Board Connections
 The diagram bellow represents the board connections:
 
-![board connections](https://imagehost.imageupload.net/2020/04/17/arduino-connections.jpg)
+![board connections](https://anjelo.ml/github-images/arduino-dust-sensor/arduino-connections.jpg)
 
 1. Power Ground
 2. 5V External Power
