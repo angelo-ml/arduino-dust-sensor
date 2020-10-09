@@ -19,22 +19,22 @@ The diagram bellow represents the board connections:
 11. Dust Sensor Digital Input
 12. Dust Sensor Analog Output
 
-![board connections](https://imagehost.imageupload.net/2020/04/17/sensor-board-connections.jpg)
+![board connections](https://anjelo.ml/github-images/arduino-dust-sensor/sensor-board-connections.jpg)
 
 Full images:
-- [Arduino Board Connections](https://imagehost.imageupload.net/2020/04/17/arduino-connections-full.jpg)
-- [Sensor Photo](https://imagehost.imageupload.net/2020/04/17/sensor-board-connections-full.jpg)
+- [Arduino Board Connections](https://anjelo.ml/github-images/arduino-dust-sensor/arduino-connections-full.jpg)
+- [Sensor Photo](https://anjelo.ml/github-images/arduino-dust-sensor/sensor-board-connections-full.jpg)
 
 ## Calibration Process
 For the calibration process, a closed insulated box was used, where the sensor's output voltage measures were compared with the measures of a GRIMM high accuracy dust sensor, using ammonium sulfate solution.
 
 ### Measures Comparison
 
-![Measures Comparison](https://imagehost.imageupload.net/2020/04/17/measures-time.jpg)
+![Measures Comparison](https://anjelo.ml/github-images/arduino-dust-sensor/voltage-mass.png)
 
-### Relation between sensor's volt measures and mass concentration
+### Relationship between sensor's volt measures and mass concentration
 
-![Measures Comparison](https://imagehost.imageupload.net/2020/04/17/mass_volt.jpg)
+![Measures Comparison](https://anjelo.ml/github-images/arduino-dust-sensor/fitting.png)
 
 Finally, using Cook's distance to remove the outliers and fitting the results in a first degree polynomial equation, we end up with the following equation:
 
